@@ -274,7 +274,7 @@ class _ParseLiveListElementWidgetState<T extends sdk.ParseObject>
         duration: widget.duration,
         child: widget.childBuilder(context, _snapshot),
         // ignore: deprecated_member_use
-        vsync: this,
+        // vsync: this,
       ),
     );
     return result;
